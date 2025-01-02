@@ -14,12 +14,3 @@ puts "-----"
 age = 20
 puts "18歳以上です" if age >= 18
 # 18歳以上です
-
-puts "-----"
-
-var = "orange"
-
-unless var == "apple" then
-  puts "りんごじゃないみたい"
-end
-# りんごじゃないみたい
