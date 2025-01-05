@@ -19,3 +19,22 @@ end
 # 7 is over 5
 # 8 is over 5
 # 9 is over 5
+
+puts "-----"
+
+point1 = 1
+point1 = point1 + 1 while point1 < 5
+puts point1
+# 5
+
+puts "-----"
+
+point2 = 1
+begin
+  point2 = point2 + 1
+  puts point2
+end while point2 < 5
+# 2
+# 3
+# 4
+# 5
